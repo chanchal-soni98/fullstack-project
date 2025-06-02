@@ -1,0 +1,118 @@
+
+const ships = [
+  {
+    name: "Sea Explorer",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qxXy9xX1gG3pEaJrS3qpP7nXmjTepA5wEQ&s",
+    type: "Cargo",
+    flag: "Panama",
+  },
+  {
+    name: "Ocean Queen",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSzrlxFQzDtgXrieKcJaaYquYfg1y-zhzYyw&s",
+    type: "Tanker",
+    flag: "Bahamas",
+  },
+  {
+    name: "Wave Rider",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qxXy9xX1gG3pEaJrS3qpP7nXmjTepA5wEQ&s",
+    type: "Ferry",
+    flag: "Liberia",
+  },
+  {
+    name: "Star Voyager",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf87gbweF7tNuHbsDsm_wTKuQRgUSD0OzsaA&s",
+    type: "Cruise",
+    flag: "Malta",
+  },
+  {
+    name: "Deep Sea Diver",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAHGM2UBdDZuUi9W2DhwaPXCY6v_x20qmUA&s",
+    type: "Research",
+    flag: "Singapore",
+  },
+  {
+    name: "Harbor Master",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-daoFMtM-RV-evuaRi8zz4TmGSSyaY6K4mQ&s",
+    type: "Pilot Boat",
+    flag: "USA",
+  },
+  {
+    name: "Coral Guardian",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToAzvFzWiPiNqoiLL-9V2T224fWEB2FSEEyQ&s",
+    type: "Environmental",
+    flag: "Australia",
+  },
+  {
+    name: "Nautical Navigator",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6EvIJm2A_sIVJoagiSmwlGOywfVsDT3PW7w&s",
+    type: "Survey Vessel",
+    flag: "UK",
+  },
+  {
+    name: "Wind Chaser",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSzrlxFQzDtgXrieKcJaaYquYfg1y-zhzYyw&s",
+    type: "Sailing Yacht",
+    flag: "France",
+  },
+  {
+    "name": "Sea Explorer",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qxXy9xX1gG3pEaJrS3qpP7nXmjTepA5wEQ&s",
+    "type": "Cargo",
+    "flag": "Panama"
+  },
+  {
+    "name": "Ocean Queen",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSzrlxFQzDtgXrieKcJaaYquYfg1y-zhzYyw&s",
+    "type": "Tanker",
+    "flag": "Bahamas"
+  },
+  {
+    "name": "Wave Rider",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qxXy9xX1gG3pEaJrS3qpP7nXmjTepA5wEQ&s",
+    "type": "Ferry",
+    "flag": "Liberia"
+  },
+  {
+    "name": "Star Voyager",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf87gbweF7tNuHbsDsm_wTKuQRgUSD0OzsaA&s",
+    "type": "Cruise",
+    "flag": "Malta"
+  },
+  {
+    "name": "Deep Sea Diver",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAHGM2UBdDZuUi9W2DhwaPXCY6v_x20qmUA&s",
+    "type": "Research",
+    "flag": "Singapore"
+  },
+  {
+    "name": "Harbor Master",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-daoFMtM-RV-evuaRi8zz4TmGSSyaY6K4mQ&s",
+    "type": "Pilot Boat",
+    "flag": "USA"
+  },
+  {
+    "name": "Coral Guardian",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToAzvFzWiPiNqoiLL-9V2T224fWEB2FSEEyQ&s",
+    "type": "Environmental",
+    "flag": "Australia"
+  },
+  {
+    "name": "Nautical Navigator",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6EvIJm2A_sIVJoagiSmwlGOywfVsDT3PW7w&s",
+    "type": "Survey Vessel",
+    "flag": "UK"
+  },
+  {
+    "name": "Wind Chaser",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSzrlxFQzDtgXrieKcJaaYquYfg1y-zhzYyw&s",
+    "type": "Sailing Yacht",
+    "flag": "France"
+  },
+];
+
+const getAllShips = (searchQuery = "") => {
+  const search = searchQuery.toLowerCase();
+  return ships.filter((ship) => ship.name.toLowerCase().includes(search));
+};
+
+export { getAllShips };
