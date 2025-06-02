@@ -1,4 +1,4 @@
-﻿# fathommarineconsultants-full-stack-assignment
+﻿# Full-stack-project
 
  ## Project Overview
 Maritime Operations Dashboard enables user authentication and provides access to a personalized dashboard that displays marine vessel information. The application includes a secure login/signup system, a responsive UI, and a marine data integration feature.
