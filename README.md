@@ -1,7 +1,7 @@
 ﻿# Full-stack-project
 
  ## Project Overview
-Maritime Operations Dashboard enables user authentication and provides access to a personalized dashboard that displays marine vessel information. The application includes a secure login/signup system, a responsive UI, and a marine data integration feature.
+ Dashboard enables user authentication and provides access to a personalized dashboard that displays marine vessel information. The application includes a secure login/signup system, a responsive UI, and a marine data integration feature.
 
 ## Deployed Link: https://gregarious-souffle-031aa9.netlify.app/
 
