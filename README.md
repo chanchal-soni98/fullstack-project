@@ -3,6 +3,8 @@
  ## Project Overview
 Maritime Operations Dashboard enables user authentication and provides access to a personalized dashboard that displays marine vessel information. The application includes a secure login/signup system, a responsive UI, and a marine data integration feature.
 
+## Deployed Link: https://gregarious-souffle-031aa9.netlify.app/
+
 ## Tech Stack
 <sub>Category	Tools Used</sub>  
 <sub>Frontend	React, Tailwind CSS</sub>  
@@ -26,10 +28,10 @@ Maritime Operations Dashboard enables user authentication and provides access to
 ## Setup instructions
 
 ### Clone the repository
-git clone https://github.com/chanchal-soni98/athommarineconsultants-full-stack-assignment.git
+git clone https://github.com/chanchal-soni98/fullstack-project.git
 
 ### Navigate into the project directory
-cd athommarineconsultants-full-stack-assignment
+cd fullstack-project
 
 ### Backend Setup  
 <sub>cd backend</sub>  
